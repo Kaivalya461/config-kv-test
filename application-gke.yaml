@@ -1,0 +1,16 @@
+## this config file contains all the environment level config, such as global level logging (User can override this using per app configs)
+
+### Logging
+logging:
+  level:
+    com.netflix.eureka: OFF
+    com.netflix.discovery: OFF
+    ROOT: ERROR
+    com.kv.service: INFO
+
+### Actuator Config (Used by SpringBootAdmin)
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,loggers,caches
