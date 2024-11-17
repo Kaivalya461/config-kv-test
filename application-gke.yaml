@@ -13,3 +13,9 @@ management:
     web:
       exposure:
         include: health,info,metrics,loggers,caches
+
+### Eureka Service Registry Config
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://service-registry.kvhome.in/eureka/
