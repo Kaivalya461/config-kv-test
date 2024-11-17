@@ -5,7 +5,6 @@ logging:
   level:
     com.netflix.eureka: OFF
     com.netflix.discovery: OFF
-    ROOT: ERROR
     com.kv.service: INFO
 
 ### Actuator Config (Used by SpringBootAdmin)
