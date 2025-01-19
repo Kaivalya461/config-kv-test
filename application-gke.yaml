@@ -16,6 +16,8 @@ management:
 
 ### Eureka Service Registry Config
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     serviceUrl:
       defaultZone: http://service-registry.kvhome.in/eureka/
